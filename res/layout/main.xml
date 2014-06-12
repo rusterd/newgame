@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/modedesign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/totry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            	<Button
+        android:id="@+id/cleanpath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPath" />
+
+            		<Button
+        android:id="@+id/shrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shrink" />
+            		            <Button
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="type"/>
+            		                        <TextView
+                android:id="@+id/cross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  0 X"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+      	
+<!-- 
+    <LinearLayout
+        android:id="@+id/modedesign"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+      	<Button
+        android:id="@+id/totry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+	<Button
+        android:id="@+id/restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+ 	
+			<Spinner
+		    android:id="@+id/color"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1" />
+		      
+
+		
+
+		<Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+			<Button
+        android:id="@+id/unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" /> 
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/modetry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+      
+	<Button
+        android:id="@+id/todesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToDesign" />
+		<Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hint" />
+			<Spinner
+		    android:id="@+id/size"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1" />
+<Spinner
+		    android:id="@+id/level"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1" />
+
+	
+
+    </LinearLayout> -->
+        
+    <com.Crosswords.Activity.MainView
+         android:id="@+id/mainv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </com.Crosswords.Activity.MainView>
+
+</LinearLayout>
